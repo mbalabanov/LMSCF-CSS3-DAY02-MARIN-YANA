@@ -6,7 +6,7 @@ body {
 .featuredimages {
     display: flex;
  	width: 900px;
-    height: 320px;
+    height: 318px;
  	flex-wrap: wrap;
  	flex-direction: column;
  }
@@ -16,7 +16,7 @@ body {
 }
 
  .tall {
-	width: 178px;
+	width: 177px;
 	margin: 1px;
  }
 

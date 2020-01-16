@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>ORF</title>
+	<!-- Yana's CSS file -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Marin's CSS file -->
 	<link rel="stylesheet" type="text/css" href="css/images.css">
 </head>
+
 <body>
 
+<!-- Container with fixed width and left margin contains everything except for advertistements -->
 <div id="container">
 
+	<!-- Topmost navigation -->
 	<div class="topnav">
 		<ul>
 			<li>Fernsehen</li>
@@ -23,19 +29,23 @@
 		</ul>
 	</div>
 
-		<header id="header" class="">
-			<div class="orflogo">
-				<img src="img/orf-logo.svg" alt="Österreichischer Rundfunk">
-			</div>
-			<div class="weather">
-				<img src="img/weather.svg" alt="Wetter heute">
-			</div>
-			<div class="internaladvert">
-				<img src="img/internalad.svg" alt="Radiothek">
-			</div>
-		</header><!-- /header -->
+	<!-- Logo Navigation between the top nav and the hero images -->
+	<header id="header">
+		<div class="orflogo">
+			<img src="img/orf-logo.svg" alt="Österreichischer Rundfunk">
+		</div>
+		<div class="weather">
+			<img src="img/weather.svg" alt="Wetter heute">
+		</div>
+		<div class="internaladvert">
+			<img src="img/internalad.svg" alt="Radiothek">
+		</div>
+	</header><!-- /header -->
 
-<div class="colorbg">
+	<!-- We need a different background color for the news section -->
+	<div class="colorbg">
+
+		<!-- Hero images: Using Flexbox--> 
 		<div class="featuredimages">
 			<div class="tall">
 				<div class="headline-container">
@@ -78,59 +88,51 @@
 			</div>
 		</div>
 
-	<!-- Main link list of news-->
+		<!-- Main link list of news-->
+		<div class="topicFlex">
+			<p>Ausland</p>
+			<div class="articles">
+				<a href="#">Hunderttausende laut UNO aus Idlib geflohen</a><br>
+				<a href="#">Erdogan kündigt Truppenentsendung nach Libyen an</a><br>
+				<a href="#">Organspende: Widerspruchslösung in Deutschland abgelehnt</a>
+			</div>
+		</div>
 
-				<div class="topicFlex">
-					<p>Ausland</p>
-					
-					<div class="articles">
-						<a href="#">Hunderttausende laut UNO aus Idlib geflohen</a><br>
-						<a href="#">Erdogan kündigt Truppenentsendung nach Libyen an</a><br>
-						<a href="#">Organspende: Widerspruchslösung in Deutschland abgelehnt</a>
-					</div>
-					
-				</div>
+		<div class="topicFlex">
+			<p>Inland</p>
+			<div class="articles">
+				<a href="#">Generalsekretäre: Grüne überlegen noch</a><br>
+				<a href="#">Mandatskauf: Angeblich Betrugsermittlungen gegen Strache</a><br>
+				<a href="#">Gezielter Abschuss von Wölfen in Tirol angedacht</a>
+			</div>
+		</div>
 
-				<div class="topicFlex">
-					<p>Inland</p>
-					
-					<div class="articles">
-						<a href="#">Generalsekretäre: Grüne überlegen noch</a><br>
-						<a href="#">Mandatskauf: Angeblich Betrugsermittlungen gegen Strache</a><br>
-						<a href="#">Gezielter Abschuss von Wölfen in Tirol angedacht</a>
-					</div>
-					
-				</div>
-
-				<div class="topicFlex">
-					<p>Wirtschaft</p>
-					
-					<div class="articles">
-						<a href="#">Tesla-Zulassungen in Kalifornien brachen ein</a><br>
-						<a href="#">U4-Sanierung wird um 44 Millionen Euro teurer</a><br>
-						<a href="#">25 Mio. Euro für Schafbergbahn</a>
-					</div>
-					
-				</div>
-				
-<footer>
-	<div class="bottomnav">
+		<div class="topicFlex">
+			<p>Wirtschaft</p>
+			<div class="articles">
+				<a href="#">Tesla-Zulassungen in Kalifornien brachen ein</a><br>
+				<a href="#">U4-Sanierung wird um 44 Millionen Euro teurer</a><br>
+				<a href="#">25 Mio. Euro für Schafbergbahn</a>
+			</div>
+		</div>
 		
-			<a href="#">Kontakt</a>
-			<a href="#">Datenschutz</a>
-			<a href="#">Impressum/Offenlegung</a>
-			<a href="#">Bekanntgaben laut ORF-G</a>
-			<a href="#">Publikumsrat</a>
-			<img src="img/orf-brick1.svg" alt="orflogo" width="57px" height="26px">
-		</ul>
+		<!-- Footer still inside the container and the contentbg-->		
+		<footer>
+			<div class="bottomnav">
+					<a href="#">Kontakt</a>
+					<a href="#">Datenschutz</a>
+					<a href="#">Impressum/Offenlegung</a>
+					<a href="#">Bekanntgaben laut ORF-G</a>
+					<a href="#">Publikumsrat</a>
+					<img src="img/orf-brick1.svg" alt="orflogo" width="57px" height="26px">
+				</ul>
+			</div>
+		</footer>
 
+	</div>
 </div>
 
-
-</footer>		
-</div>
-</div>
-
+<!-- Advertistement image and Youtube video -->
 <div class="advertisement">
 	<img src="img/advertistement.jpg" alt="Advertistement">
 	<iframe width="240px" src="https://www.youtube.com/embed/eR6Ew4HLbds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
