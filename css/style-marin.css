@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color:  #c4c4c4;
 }
 
 * {
@@ -24,14 +24,16 @@ footer {
 
 p, li {
 	color: #707070;
+	margin-bottom: 10px;
 }
 
 header {
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 header h1 {
-	color: red;
+	color: #DB0038;
 	font-size: 300%;
 }
 
@@ -41,17 +43,18 @@ header p {
 }
 
 #hero {
-	background-color: lightgray;
+	background-color:  #f4f4f4;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
-#hero h3 {
+h3 {
 	text-transform: uppercase;
+	color: #474747;
 }
 
-#hero h2 {
-	color: teal;
+h2 {
+	color: #3998A3;
 	font-weight: bold;
 	font-size: 120%;
 }
@@ -61,8 +64,8 @@ header p {
 }
 
 .whitestar {
-	color: yellow;
-	text-shadow: 0px 0px 1px orange;
+	color: white;
+	text-shadow: 0px 0px 4px orange;
 }
 
 .rating {
