@@ -24,7 +24,14 @@ footer {
 
 p, li {
 	color: #707070;
-	margin-bottom: 10px;
+}
+
+li {
+	margin: 5px 0 5px 0;
+}
+
+p {
+	margin: 10px;
 }
 
 header {
