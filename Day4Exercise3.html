@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		
+		header {
+			text-align: center;
+			color: brown;
+		}
+		
+		nav, .feature, .col {
+			background-color: lightgray;
+			text-align: center;
+			padding: 20px;
+			margin-top: 10px; 
+			color: brown;
+			justify-content: space-between;
+		}
+
+		
+
+		nav li {
+			display:  inline;
+		}
+
+		 li>a {
+			color: brown;
+			
+		}
+
+		ul {
+			list-style: none;
+			
+		}
+
+		li {
+		 	margin: 10px;
+
+		 }
+
+		 * {
+			box-sizing: border-box;
+		}
+
+		.columns {
+			display: flex;
+			flex-direction: row;
+			margin-right: -10px;
+
+
+		}
+
+		.col {
+			width: 33%;
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Logo</h1>
+	</header>
+
+	<nav class="nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section class="feature">
+		<p>Feature</p>
+	</section>
+
+	<section>
+		<div class="columns">
+			<div class="col">Column One</div>
+			<div class="col">Column Two</div>
+			<div class="col">Column Three</div>
+		</div>
+	</section>
+
+	<section class="feature">
+		<p>&copy;Copyright 2011</p>
+	</section>
+</body>
+</html>
