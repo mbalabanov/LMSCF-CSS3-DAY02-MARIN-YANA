@@ -59,6 +59,8 @@ body {
 header {
 	height: 60px;
 	margin: 10px 0;
+	display: flex;
+	justify-content: space-between;
 }
 .orflogo, .internaladvert, .weather {
 	width: 290px;
@@ -76,6 +78,6 @@ header {
 	height: 40px;
 }
 
-.orf-logo p, .internaladvert p, .weather p {
-	text-align: left;
+.internaladvert {
+	text-align: right;
 }

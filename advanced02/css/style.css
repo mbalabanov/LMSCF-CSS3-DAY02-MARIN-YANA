@@ -11,7 +11,7 @@ body {
 #container {
 	width: 900px;
 	margin-left: 20px;
-
+	float: left;
 }
 
 .colorbg {
@@ -87,3 +87,12 @@ body {
  .bottomnav img {
  	padding-top: 12px;
  }
+
+ .advertisement {
+ 	width: 240px;
+ 	float: right;
+ }
+
+  .advertisement img {
+  	width: 100%;
+  }
