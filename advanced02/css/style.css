@@ -29,3 +29,36 @@ body {
 	color: white;
 	margin: 10px;
 }
+
+.topic {
+	letter-spacing: 5px;
+
+}
+
+.topicFlex {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 15px;
+}
+
+.topicFlex p {
+	margin-right: 20px;
+	width: 150px;
+	text-align: right;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 3px;
+}
+
+.articles a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+	display: block;
+
+}
+
+.articles a:hover {
+	text-decoration: underline;
+}
