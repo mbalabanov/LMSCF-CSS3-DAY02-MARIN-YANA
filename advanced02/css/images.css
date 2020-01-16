@@ -56,15 +56,26 @@ body {
   font-weight: bold;
 }
 
-.orf-logo, .internalad, .weather {
-	width: 200px;
+header {
+	height: 60px;
+	margin: 10px 0;
+}
+.orflogo, .internaladvert, .weather {
+	width: 290px;
 	float: left;
+}
+
+.orflogo span, .internaladvert span, .weather span {
+	font-size: 140%;
+	font-weight: bold;
+	color: white;
+	line-height: 0.8em;
 }
 
 .orflogo img, .internaladvert img, .weather img {
 	height: 40px;
 }
 
-.orf-logo p, .internalad p, .weather p {
+.orf-logo p, .internaladvert p, .weather p {
 	text-align: left;
 }

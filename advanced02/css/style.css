@@ -11,6 +11,11 @@ body {
 #container {
 	width: 900px;
 	margin-left: 20px;
+
+}
+
+.colorbg {
+	background-color: #5A8BC4;
 }
 
 .topnav {
